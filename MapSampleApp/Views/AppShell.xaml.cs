@@ -5,7 +5,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
-using MapSampleApp.ViewModels;
 
 namespace MapSampleApp
 {
@@ -14,7 +13,6 @@ namespace MapSampleApp
         public AppShell()
         {
             InitializeComponent();
-            BindingContext = new MainPageViewModel();
         }
     }
 }
