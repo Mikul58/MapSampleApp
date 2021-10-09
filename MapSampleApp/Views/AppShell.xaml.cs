@@ -9,9 +9,9 @@ using MapSampleApp.ViewModels;
 
 namespace MapSampleApp
 {
-    public partial class MainPage : ContentPage
+    public partial class AppShell : Shell
     {
-        public MainPage()
+        public AppShell()
         {
             InitializeComponent();
             BindingContext = new MainPageViewModel();
